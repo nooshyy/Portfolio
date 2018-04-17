@@ -1,0 +1,161 @@
+body {
+	margin: 0px;
+	font-size: 8px;
+}
+
+/* Links */
+
+	a:link {
+    	color: #20B3F8; 
+    	background-color: transparent; 
+    	text-decoration: none;
+	}
+
+	a:visited {
+   		color: #000000;
+   		background-color: transparent;
+   		text-decoration: none;
+	}
+
+	a:hover {
+    	color: #F8208F;
+   		background-color: transparent;
+    	text-decoration: underline;
+	}
+
+	a.nostyle:link {
+		text-decoration: inherit;
+		color: inherit;
+	}
+
+	a.nostyle:visited {
+		text-decoration: inherit;
+		color: inherit;
+	}
+
+/* Text */
+
+	h1{
+		font-family: Proxima Nova;
+		font-weight: bold;
+		font-size: 24px;
+	}
+
+	h2{
+		font-family: Proxima Nova;
+		font-weight: bold;
+		font-size: 12px;
+		padding-left: 40px;
+		padding-right: 40px;
+		padding-top: 8px;
+		padding-bottom: 8px; 
+	}
+
+
+	h3{
+		font-family: Proxima Nova;
+		font-weight: semibold;
+		font-size: 12px;
+		width: 250px;
+		line-height: 20px;
+	}
+
+/* Header */
+
+	.logo {
+		height: 90px; 
+		width: 95px;
+		margin: auto;
+	}
+
+	div.getInTouch {
+		height: 30px;
+		width: 160px;
+		background-color: #000000;
+	}
+
+/* Footer */
+
+	@keyframes rainbow {
+		0% {color: #20B3F8;}
+		30% {color: #F8208F;}
+		50% {color: #F88620;}
+		70% {color: #F8208F;}
+		100% {color: #20B3F8;}
+	}
+
+	div.stickyLine {
+		width: 45px;
+		height: 3px;
+		background-color: #000000;
+		/*position: sticky;*/
+		/*float: right;*/
+	}
+
+	.longitude {
+
+		font-family: Proxima Nova;
+		font-weight: 700;
+		transform: rotate(90deg);
+		position: fixed;
+		top: 63%;
+		right: 8px;
+		font-size: 1.5em;
+
+	}
+
+	.positionLineOne {
+		top:60%;
+		position: fixed;
+		right: 0em;
+	}
+
+	.positionLineTwo {
+		top: 75%;
+		position: fixed;
+		right: 0em;
+	}
+
+	.latitude {
+
+		font-family: Proxima Nova;
+		font-weight: 700;
+		transform: rotate(90deg);
+		position: fixed;
+		top: 78.2%;
+		right: 8px;
+		font-size: 1.5em;
+
+	}
+
+	div.textAnimation {
+		position: fixed;
+		animation-name: rainbow;
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
+	}
+
+	div.footerName {
+		font-family: Proxima Nova;
+		font-weight: 550;
+		font-size: 1.5em;
+		top: 96%;
+		left: 5%;
+	}
+
+		div.footerSocial {
+		font-family: Proxima Nova;
+		font-weight: 550;
+		font-size: 1.5em;
+		top: 96%;
+		left: 70%;
+	}
+
+	.footerLink {
+		margin: 0em 2em;
+	}
+
+	.fillerBox {
+		height: 2000px;
+	}
+
